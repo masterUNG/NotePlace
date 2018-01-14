@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">NotePlace</string>
+    <string name="linkdetail">
+        <a href="http://www.project2.cmru.ac.th/57143502/">ข้อมูลรายละเอียดเงื่อนไขการใช้งานของแอปพลิเคชั่น</a>
+    </string>
+    <string name="title_activity_listview">ListviewActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_searching">ค้นหา...</string>
+    <string name="action_share">ส่งต่อ</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragmentf">Hello blank fragment on First page</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

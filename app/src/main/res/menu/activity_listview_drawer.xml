@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_myplace"
+            android:icon="@drawable/myplace"
+            android:title="สถานที่ของฉัน" />
+        <item
+            android:id="@+id/nav_rating"
+            android:icon="@drawable/rating"
+            android:title="ระดับคะแนน" />
+
+    </group>
+
+    <item android:title="หมวดหมู่">
+        <menu>
+            <item
+                android:id="@+id/nav_restaurant"
+                android:icon="@drawable/restaurantcutlery"
+                android:title="ร้านอาหาร" />
+            <item
+                android:id="@+id/nav_fixshop"
+                android:icon="@drawable/fixshop"
+                android:title="ร้านซ่อมต่างๆ" />
+            <item
+                android:id="@+id/nav_travel"
+                android:icon="@drawable/travel"
+                android:title="สถานที่ท่องเที่ยว" />
+            <item
+                android:id="@+id/nav_service"
+                android:icon="@drawable/service"
+                android:title="สถานที่ให้บริการต่างๆ" />
+            <item
+                android:id="@+id/nav_space"
+                android:icon="@drawable/space"
+                android:title="สถานที่ประเภทอื่นๆ" />
+        </menu>
+    </item>
+
+    <item android:title="การจัดการบัญชี">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="ส่งต่อ" />
+            <item
+                android:id="@+id/nav_signout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="ออกจากระบบ" />
+        </menu>
+    </item>
+
+</menu>
